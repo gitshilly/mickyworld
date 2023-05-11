@@ -1,0 +1,16 @@
+// _（下划线）是scss的一个partial
+// scss 模块化，引入去掉下划线
+// 它不会被生成到CSS中
+
+// config
+@import "variables";
+
+// layout
+@import "reboot";
+
+// mixins
+@import "mixins";
+
+@import "../components/Button/styles.scss";
+
+@import "../components/Icon/styles.scss"
