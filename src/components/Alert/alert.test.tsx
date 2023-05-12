@@ -24,8 +24,8 @@ const typeProps: AlertProps = {
 }
 describe('test Alert Component', () => {
   it('should render the correct default Alert', () => {
-    //const { getByText, container, queryByText } = render(<Alert {...testProps}/>)
-    ////const { getByText as getByTextT } = screen
+    const { getByText, container, queryByText } = render(<Alert {...testProps}/>)
+    //const { getByText as getByTextT } = screen
     //expect(queryByText('title')).toBeInTheDocument()
     //expect(container.querySelector('.viking-alert')).toHaveClass('viking-alert-default')
     //fireEvent.click(getByText('times'))
